@@ -1,4 +1,4 @@
-Provisioning script for kubernetes to Scaleway (using Terraform).
+Provisioning files for Terraform to deploy a Kubernetes cluster to Scaleway.
 =====
 
 How to use:
@@ -12,3 +12,5 @@ How to use:
 5. Run "terraform apply" to provision your kubernetes cluster.
 6. Get config file from master by running "scp -i privatekey root@masterip:/etc/kubernetes/admin.conf .
 7. Run locally a proxy for accessing the cluster UI with "kubectl --kubeconfig ./admin.conf proxy"
+
+Based on edouardb/kubernetes-terraform-scaleway.
