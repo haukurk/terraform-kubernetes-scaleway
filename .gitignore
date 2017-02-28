@@ -1,0 +1,6 @@
+scw.pub
+scw
+scw-install.sh
+admin.conf
+terraform.tfstate*
+terraform.tfvars
