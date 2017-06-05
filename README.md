@@ -4,6 +4,7 @@ Provisioning files for Terraform to deploy a Kubernetes cluster to Scaleway.
 How to use:
 
 1. Generate SSH keys for Scaleway and add it to the security section in Scaleway.
+ SSH Key must have the name ``scw`` 
 2. Issue a token from your scaleway account.
 3. Create a Kubernetes token for terraform.tfvars.
    You can use ` python -c 'import random; print "%0x.%0x" % (random.SystemRandom().getrandbits(3*8), random.SystemRandom().getrandbits(8*8))' ` 
